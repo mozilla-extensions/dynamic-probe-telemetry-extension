@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-probe-telemetry-extension",
+  "version": "1.0.0",
+  "description": "An extension to test telemetry dynamic probes.",
+  "main": ".",
+  "scripts": {
+    "build": "web-ext build --source-dir ./extension --filename dynamic-probe-telemetry-extension.xpi",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-extensions/dynamic-probe-telemetry-extension.git"
+  },
+  "author": "Mozilla Developers",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla-extensions/dynamic-probe-telemetry-extension/issues"
+  },
+  "homepage": "https://github.com/mozilla-extensions/dynamic-probe-telemetry-extension#readme",
+  "dependencies": {
+    "web-ext": "^5.4.0"
+  }
+}
