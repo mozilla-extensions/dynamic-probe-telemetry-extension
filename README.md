@@ -1,1 +1,1 @@
-# XPI template repo
+# Dynamic Prope Telemetry Extension repo
