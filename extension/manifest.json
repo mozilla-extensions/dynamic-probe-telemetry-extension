@@ -5,7 +5,13 @@
   
     "permissions": [
         "telemetry"
-      ],
+    ],
+
+    "applications": {
+        "gecko": {
+            "id": "dynamic-probe-telemetry-extension@mozilla.com"
+        }
+    }, 
 
     "background": {
         "scripts": ["background.js"]
